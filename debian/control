@@ -1,0 +1,16 @@
+Source: typing
+Maintainer: Ian Marlier <imarlier@wikimedia.org>
+Section: python
+Priority: optional
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools
+X-Python3-Version: >= 3.3
+Homepage: https://docs.python.org/3/library/typing.html
+Vcs-Git: https://github.com/python/cpython.git
+Vcs-Browser: https://github.com/python/cpython/blob/3.6/Lib/typing.py
+
+Package: python3-typing
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3 (< 3.5)
+Description: Python typing (python3)
+ Python 3 typing module

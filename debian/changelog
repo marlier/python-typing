@@ -1,0 +1,5 @@
+typing (3.6.4-1) unstable; urgency=medium
+
+  * Initial packaging
+
+ -- Ian Marlier <imarlier@wikimedia.org>  Tue, 14 Mar 2018 17:06:22 +0400
